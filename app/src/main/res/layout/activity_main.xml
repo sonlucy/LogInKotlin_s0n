@@ -28,6 +28,7 @@
         android:layout_marginTop="30dp"/>
 
     <EditText
+        android:id="@+id/idEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
@@ -40,6 +41,7 @@
         android:layout_marginTop="30dp"/>
 
     <EditText
+        android:id="@+id/passwordEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
@@ -51,6 +53,7 @@
         android:layout_weight="1"/>
 
     <Button
+        android:id="@+id/loginBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="로그인"/>
