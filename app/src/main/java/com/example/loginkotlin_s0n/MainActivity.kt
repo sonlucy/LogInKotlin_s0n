@@ -22,13 +22,17 @@ class MainActivity : AppCompatActivity() {
 //            맞을 때 -> 틀릴 때 분기처리. (if문 활용)
             if (inputId== "admin@test.com" && inputPw=="qwer")
             {
-                Toast.makeText(this, "관리자입니다.", Toast.LENGTH_SHORT).show()
+//                관리자 이름을 변수에 임시 저장.
+                val name="손보경"
+//                둘다 맞다면 손보경 관리자 입니다. 토스트
+
+                Toast.makeText(this, "${name.toString()} 관리자입니다.", Toast.LENGTH_SHORT).show()
 
             }
             else
             {
                 Toast.makeText(this, "로그인 실패", Toast.LENGTH_SHORT).show()
-                ㅁ
+
             }
 
         }
